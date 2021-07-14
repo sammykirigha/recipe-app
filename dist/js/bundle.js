@@ -1,0 +1,1 @@
+!function(){"use strict";console.log("exported a module"),console.log("i imported 23 from another module")}();
