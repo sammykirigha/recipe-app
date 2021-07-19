@@ -1,4 +1,7 @@
-import num from './test';
+import Search from './modules/Search';
 
-console.log(`i imported ${num} from another module called`);
-console.log("i like playing around with vedio games")
+const search = new Search('pizza')
+console.log(search);
+
+search.getResults()
+
